@@ -50,7 +50,14 @@ table {
     max-width:100%;
     /* border:1px solid grey; */
 }
-
+h1 {
+  color: #333;
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  }
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
