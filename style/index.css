@@ -1,1 +1,167 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing:border-box;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+h1 {
+  color: #333;
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  }
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    transform:scale(1.3)
+  }
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+img{
+    width: 350px;
+    height: 150px;
+    margin: 1%;
+}
+.column  { 
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly; 
+  
+  }
+  .left{
+    float: left;
+    padding: 14px 16px;
+  }
+  .clear{
+    clear:both;
+  }
+  .right{
+    margin-left: 3%;
+  }
+  h2 {
+    color: #887755;
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 2em;
+    margin-top: .1%;
+    margin-left: 5%;
+    margin-bottom: 1px;
+  }
+h3{
+    color: #887755;
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 1.5em;
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-bottom: 1px;
+}
+  }
+  /*********mobile styling******/
+  @media (max-width:800px)
+  *{
+    box-sizing:border-box;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+h1 {
+  color: #333;
+  font-family: 'Averia Serif Libre', cursive;
+  font-size: 3em;
+  font-weight: bold;
+  margin-top: 0px;
+  margin-bottom: 1px;
+  }
+
+  .topnav a {
+
+    text-decoration: none;
+    font-size: 1rem;
+  }
+ 
+img{
+    width: 30vh;
+    height: 150px;
+    margin: 1%;
+}
+.column  { 
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly; 
+  
+  }
+
+
+
+
+
+
+
+
+
+  
+    
+}/***closing media query bracket don't delete***/ 
